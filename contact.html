@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/contact.css"/>
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+		<title></title>
+	</head>
+	<body>
+		<div class="header navbar-fixed-top">
+			<div class="container">
+				<div class="row">
+					<div class="header-wrap">
+						<div class="col-md-2">
+							<p class="pull-right visible-sm visible-xs">
+								<button id="btn1" class="btn-xs btn btn-primary"><i class="glyphicon glyphicon-align-justify"></i></button>
+							</p>
+							<div class="logo"><a href="#"><img src="img/logo.jpg" alt="logo"/></a></div>
+						</div>
+						<div class="col-md-10 hidden-sm hidden-xs">
+							<div class="flat-show-search">
+								<div class="show-search">
+									<i class="glyphicon glyphicon-search"></i><input type="text" placeholder="请输入关键词" />
+								</div>
+							</div>
+							<div class="nav-wrap">
+								<div class="mainnav">
+									<ul class="clearfix">
+										<li>
+											<a href="index.html">首页</a>
+										</li>
+										<li>
+											<a href="program.html">解决方案</a>
+											<div class="dropdown">
+												<p><a>ICT运营管理</a></p>
+												<p><a>人工智能和大数据</a></p>
+												<p><a>物联网与通讯技术应用</a></p>
+											</div>
+										</li>
+										<li>
+											<a href="products.html">产品</a>
+											<div class="dropdown">
+												<p><a>ICT运营管理</a></p>
+												<p><a>手机游戏</a></p>
+												<p><a>人工智能和大数据</a></p>
+												<p><a>物联网与通讯技术应用</a></p>
+											</div>
+										</li>
+										<li>
+											<a href="news.html">新闻中心</a>
+										</li>
+										<li>
+											<a class="active" href="contact.html">联系我们</a>
+										</li>
+										<li>
+											<a href="about.html">关于泰岳</a>
+											<div class="dropdown">
+												<p><a>泰岳介绍</a></p>
+												<p><a>成员企业</a></p>
+												<p><a>公司历程</a></p>
+												<p><a>企业文化</a></p>
+												<p><a>加入我们</a></p>
+											</div>
+										</li>
+								</div>
+							</div>	
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+		<div id="list" class="list hidden-md hidden-lg">
+			<ul>
+				<li><a href="index.html">首页</a><i class="glyphicon glyphicon-chevron-down"></i></li>
+				<li><a href="program.html">解决方案</a><i class="glyphicon glyphicon-chevron-down"></i></li>
+				<li><a href="products.html">产品</a><i class="glyphicon glyphicon-chevron-down"></i></li>
+				<li><a href="news.html">新闻中心</a><i class="glyphicon glyphicon-chevron-down"></i></li>
+				<li><a href="contact.html">投资者关系</a><i class="glyphicon glyphicon-chevron-down"></i></li>
+				<li><a href="about.html">关于泰岳</a><i class="glyphicon glyphicon-chevron-down"></i></li>
+			</ul>
+		</div>
+		
+		
+		<div class="container text">
+			<div class="row"></div>
+			<div class="col-6 col-sm-6 col-lg-4">
+				<h4>注册地址</h4>
+				<p>北京市海淀区万泉庄路28号万柳新贵大厦A座6层601室</p>
+				<h4>电话</h4>
+				<p>84927606 58847583</p>
+				<h4>邮箱</h4>
+				<p>IRM@ultrapower.com.cn</p>
+			</div>
+			<div class="col-6 col-sm-6 col-lg-4">
+				<input type="text" placeholder="Name" />
+				<input type="text" placeholder="Email" />
+				<input type="text" placeholder="Subject" />
+				<input class="botton" type="button" value="SEND MESSAGE" />
+			</div>
+			<div class="col-6 col-sm-6 col-lg-4">
+				<textarea></textarea>
+			</div>
+		</div>
+		
+		
+		
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+			
+		
+		var oBtn1=document.getElementById("btn1");
+		var oList=document.getElementById("list");
+		oBtn1.onclick=function(){
+			if(oList.style.display=='none'){
+				oList.style.display='block'
+			}else{
+				oList.style.display='none'
+			}
+		}
+		</script>
+		
+	</body>
+</html>
